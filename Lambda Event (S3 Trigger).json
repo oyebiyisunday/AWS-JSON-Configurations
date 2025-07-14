@@ -1,0 +1,10 @@
+{
+  "Records": [{
+    "eventVersion": "2.1", // Confirmed version
+    "eventName": "ObjectCreated:Put",
+    "s3": {
+      "bucket": {"name": "upload-bucket"},
+      "object": {"key": "incoming/file.csv"}
+    }
+  }]
+}

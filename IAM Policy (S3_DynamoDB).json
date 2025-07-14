@@ -1,0 +1,9 @@
+{
+  "Effect": "Allow",
+  "Action": [
+    "dynamodb:PutItem",
+    "dynamodb:GetItem", // Added for data retrieval
+    "dynamodb:Query"
+  ],
+  "Resource": "arn:aws:dynamodb:*:*:table/AppTable"
+}

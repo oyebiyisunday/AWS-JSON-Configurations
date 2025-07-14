@@ -1,0 +1,9 @@
+"/users": {
+  "get": {
+    "responses": {"200": {}},
+    "x-amazon-apigateway-integration": { // Moved inside method
+      "uri": "arn:aws:lambda:...",
+      "type": "aws_proxy"
+    }
+  }
+}
